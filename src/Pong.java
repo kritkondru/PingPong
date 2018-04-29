@@ -22,6 +22,7 @@ public class Pong implements ActionListener, KeyListener {
 	public int gameStatus = 0, ToWin = 5, playerWon; // 0 = Menu, 1 = Paused, 2 = Playing, 3 = Over
 	public Random random;
 	public JFrame jframe;
+	public String nmae;
 
 	public Pong() {
 		Timer timer = new Timer(20, this);
